@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 
-
 </script>
 <template>
    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">

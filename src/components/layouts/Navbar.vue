@@ -1,7 +1,7 @@
 <script setup>
 import Logo from './Logo.vue'
 import NavigationLink from './NavigationLink.vue';
-import SignIn from './SignIn.vue';
+import AuthButton from './AuthButton.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import SignIn from './SignIn.vue';
       <div class="container flex flex-wrap items-center justify-between mx-auto my-2">
          <Logo />
          <NavigationLink />
-         <SignIn />
+         <AuthButton />
       </div>
    </nav>
 </template>
