@@ -33,6 +33,16 @@ const router = createRouter({
       name: 'succes',
       component: () => import('../views/SuccessView.vue'),
     },
+    {
+      path: '/categories',
+      name: 'categories',
+      component: () => import('../views/CategoriesView.vue'),
+    },
+    {
+      path: '/categories/:id',
+      name: 'category-items',
+      component: () => import('../views/CategoriesItems.vue'),
+    },
   ],
 });
 
